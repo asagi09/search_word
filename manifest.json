@@ -1,0 +1,13 @@
+{
+    "name": "Search on Google",
+    "author": "Yuji Saiga",
+    "version": "0.1",
+    "description": "Search selected words on google",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": true
+    },
+    "permissions": [
+        "*://*/*", "contextMenus", "tabs"
+    ]
+}
